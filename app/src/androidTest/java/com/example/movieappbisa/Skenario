@@ -1,0 +1,49 @@
+## Skenario Unit Testing
+
+- HomeViewModelTest:
+    = Memuat Data dari Entity=> MovieTv
+    = Data Tidak Null
+    = Memastikan data sesuai dengan yang diharapkan sebanyak 10 data dari Movie
+        (title, poster, rate)
+
+- TvViewModelTest:
+    = Memuat Data dari Entity=> MovieTv
+    = Data Tidak Null
+    = Memastikan data sesuai dengan yang diharapkan sebanyak 10 data dari Tv Show
+        (title, poster, rate)
+
+- DetailViewModelTest:
+    = menampilkan detail data dari Movie atau TV show yang dipilih.
+    = Data MovieTv Tidak Null
+    = Memastikan data yang tampil sesuai dengan yang diharapkan
+        (title, release, rate, overview, poster)
+
+## Skenario Instrument Testing
+- Main Activity:
+    = Menampilkan data movie dan tv show
+
+    *MOVIE*
+    = menampilkan recycler view dari Movie dan bisa melakukan scroll ke posisi terakhir
+    = Memberi tindakan klik kepada movie terpilih untuk melanjutkan ke detail activity.
+
+    = Memastikan Imageview untuk poster Movie tampil sesuai yang diharapkan
+    = memastikan title Movie tampil sesuai yang diharapkan
+    = memastikan release Movie tampil sesuai yang diharapkan
+    = memastikan rate Movie tampil sesuai yang diharapkan
+    = memastikan dekripsi/overview Movie tampil sesuai yang diharapkan
+
+    *TV SHOW*
+    = memberi tindakan klik pada teks TV show
+    = menampilkan recycler view dari TV show  dan bisa melakukan scroll ke posisi terakhir
+    = Memberi tindakan klik kepada tv show terpilih untuk melanjutkan ke detail activity
+    = Memastikan Imageview untuk poster TV show tampil sesuai yang diharapkan
+    = memastikan title TV show tampil sesuai yang diharapkan
+    = memastikan release TV show tampil sesuai yang diharapkan
+    = memastikan rate TV show tampil sesuai yang diharapkan
+    = memastikan dekripsi/overview TV show tampil sesuai yang diharapkan
+
+    *Favorite*
+    = Memberi Tindakan menyukai pada sebuah detail Tv Show Maupun Movie yang akan memasukkan data tersebut ke fragment favorite
+    = Memberikan Tindakan tidak Menyukai pada sebuat data yang terdapat pada sebuah list pada fragment favorite dan menghapusnya dari list fragment favorite
+//NOTES :
+    Dihapus duration atau long karena tidak ada datanya pada base_url yang saya masukkan

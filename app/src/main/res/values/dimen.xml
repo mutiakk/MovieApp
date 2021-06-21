@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_view_height">250dp</dimen>
+    <dimen name="card_view_radius">10dp</dimen>
+    <dimen name="title_detail">30sp</dimen>
+    <dimen name="padding_home">8dp</dimen>
+    <dimen name="size_title_home">18sp</dimen>
+    <dimen name="size_rating_home">12sp</dimen>
+    <dimen name="movie_title_padding">10dp</dimen>
+    <dimen name="padding_layout">8dp</dimen>
+</resources>

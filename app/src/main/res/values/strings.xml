@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MovieAppBisa</string>
+    <string name="fotomovie">fotomovie</string>
+    <string name="rate">8.5</string>
+    <string name="home">Movie</string>
+    <string name="fav">TV Show</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title">title</string>
+    <string name="release">20 Desember 2020</string>
+    <string name="poster">Poster</string>
+    <string name="overview">Overview</string>
+    <string name="ceritanya_desc">AYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAH AYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAHAYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAHAYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAHAYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAHAYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAHAYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAHAYAM BEBEK MANGGA DUA KELAPA DUA JAMBU DUA MACEM MACEM HALAH</string>
+    <string name="unFavorite">Deleted from your Favorite</string>
+    <string name="add_fav">Added to my Fav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favMovie">FavoritMovie</string>
+    <string name="favTv">FavoriteTvShow</string>
+    <string name="undoMessage">Undo to delete the item?</string>
+    <string name="ok">OK</string>
+</resources>
